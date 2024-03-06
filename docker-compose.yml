@@ -1,0 +1,7 @@
+version: "3"
+services:
+  service1:
+    image: app:v1
+    container_name: test
+    ports:
+      - '80:80'
